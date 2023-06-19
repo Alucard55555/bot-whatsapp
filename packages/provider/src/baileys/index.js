@@ -74,8 +74,8 @@ class BaileysProvider extends ProviderClass {
 
                 /** Conexion abierta correctamente */
                 if (connection === 'open') {
-                    this.emit('ready', true)
                     this.initBusEvents(sock)
+                    this.emit('ready', true)
                 }
 
                 /** QR Code */
