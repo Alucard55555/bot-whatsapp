@@ -1,115 +1,175 @@
-## Chatbot Whatsapp (OpenSource)
-#### Actualizado Enero 2022
+# Chatbot Library
+![](https://img.shields.io/npm/v/@bot-whatsapp/bot?color=%2300c200&label=%40bot-whatsapp)
+[![Commitizen friendly](https://img.shields.io/badge/commitizen-friendly-brightgreen.svg)](http://commitizen.github.io/cz-cli/)
+[![](https://img.shields.io/discord/915193197645402142?logo=discord)](https://link.codigoencasa.com/DISCORD)
 
-El siguiente proyecto se realizó con fines educativos para el canal de [Youtube (Leifer Mendez)](https://www.youtube.com/channel/UCgrIGp5QAnC0J8LfNJxDRDw?sub_confirmation=1) donde aprendemos a crear y implementar un chatbot increíble usando [node.js](https://codigoencasa.com/tag/nodejs/) además le agregamos inteligencia artificial gracias al servicio de __dialogflow__.
+<p align="center">
+  <img width="300" src="https://i.imgur.com/Oauef6t.png">
+</p>
 
-[![Video](https://i.giphy.com/media/OBDi3CXC83WkNeLEZP/giphy.webp)](https://youtu.be/5lEMCeWEJ8o) 
 
-### ATENCION
-> 💥💥 Si te aparece el Error Multi-device es porque tienes la cuenta de whatsapp afiliada al modo "BETA de Multi dispositivo" por el momento no se tiene soporte para esas personas si tu quieres hacer uso de este __BOT__ debes de salir del modo BETA y intentarlo de la manera tradicional
+**Con esta librería, puedes construir flujos automatizados de conversación de manera agnóstica al proveedor de WhatsApp,** configurar respuestas automatizadas para preguntas frecuentes, recibir y responder mensajes de manera automatizada, y hacer un seguimiento de las interacciones con los clientes.  Además, puedes configurar fácilmente disparadores que te ayudaran a expandir las funcionalidades sin límites. **[Ver más informacion](https://bot-whatsapp.netlify.app/)**
 
-#### Acceso rápido
-> Si tienes una cuenta en __heroku__ puedes desplegar este proyecto con (1 click)
+## Comenzar
 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/leifermendez/bot-whatsapp) 
-
-> Comprarme un cafe!
-
-[![Comprar](https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png)](https://www.buymeacoffee.com/leifermendez)
-
-#### Actualización
-
-| Feature  | Status |
-| ------------- | ------------- |
-| Dialogflow  | ✅  |
-| MySQL  | ✅  |
-| JSON File  | ✅  |
-| QR Scan (route) | ✅ |
-| Easy deploy heroku  | ✅  |
-| Buttons | ✅ |
-| Add support ubuntu/linux | ✅ |
-
-### (Nuevo) Botones
-
-[![btn](https://i.imgur.com/W7oYlSu.png)](https://youtu.be/5lEMCeWEJ8o) 
-
-## Requisitos
-- node v14 o superior
-- VSCode (Editor de codigo) [Descargar](https://code.visualstudio.com/download)
-- MySql (opcional) solo aplica si vas a usar el modo 'mysql'  [sql-bot.sql migración](https://github.com/leifermendez/bot-whatsapp/blob/main/sql-bot.sql)
-- Dialogflow (opcional) solo aplica si vas a usar el modo 'dialogflow'
-
-## Instruciones
-__Descargar o Clonar repositorio__
-![](https://i.imgur.com/dSpUbFz.png)
-
-__Usas ¿Ubuntu / Linux?__
-> Asegurate de instalar los siguientes paquetes
 ```
-sudo apt-get install -y libgbm-dev
-sudo apt install -y gconf-service libasound2 libatk1.0-0 libc6 libcairo2 libcups2 libdbus-1-3 libexpat1 libfontconfig1 libgcc1 libgconf-2-4 libgdk-pixbuf2.0-0 libglib2.0-0 libgtk-3-0 libnspr4 libpango-1.0-0 libpangocairo-1.0-0 libstdc++6 libx11-6 libx11-xcb1 libxcb1 libxcomposite1 libxcursor1 libxdamage1 libxext6 libxfixes3 libxi6 libxrandr2 libxrender1 libxss1 libxtst6 ca-certificates fonts-liberation libappindicator1 libnss3 lsb-release xdg-utils wget
+npm create bot-whatsapp@latest
 ```
 
-__Instalar dependencias (npm install)__
-> Ubicate en le directorio que descargaste y via consola o terminal ejecuta el siguiente comando
+Entiende más a fondo sus funcionalidades explicadas en nuestra documentación.
 
-`npm install` 
+- Instalacion
+- Base de datos
+- Proveedores
 
-![](https://i.imgur.com/BJuMjGR.png)
+## Recursos
+- [📄 Documentación](https://bot-whatsapp.netlify.app/)
+- [🚀 Roadmap](https://github.com/orgs/codigoencasa/projects/1)
+- [💻 Discord](https://link.codigoencasa.com/DISCORD)
+- [👌 Twitter](https://twitter.com/leifermendez)
+- [🎥 Youtube](https://www.youtube.com/watch?v=5lEMCeWEJ8o&list=PL_WGMLcL4jzWPhdhcUyhbFU6bC0oJd2BR)
 
-__Configurar .env__
-> Con el editor de texto crea un archivo `.env` el cual debes de guiarte del archivo `.env.example`
-[Ver video explicando](https://youtu.be/5lEMCeWEJ8o?t=381)
-```
-######DATABASE: none, mysql, dialogflow
+## Comunidad
+<!-- readme: collaborators,contributors -start -->
+<table>
+<tr>
+    <td align="center">
+        <a href="https://github.com/cheveguerra">
+            <img src="https://avatars.githubusercontent.com/u/5891114?v=4" width="50;" alt="cheveguerra"/>
+            <br />
+            <sub><b>Jose Alberto Guerra Ugalde</b></sub>
+        </a>
+    </td>
+    <td align="center">
+        <a href="https://github.com/leifermendez">
+            <img src="https://avatars.githubusercontent.com/u/15802366?v=4" width="50;" alt="leifermendez"/>
+            <br />
+            <sub><b>Leifer Mendez</b></sub>
+        </a>
+    </td>
+    <td align="center">
+        <a href="https://github.com/aurik3">
+            <img src="https://avatars.githubusercontent.com/u/37228512?v=4" width="50;" alt="aurik3"/>
+            <br />
+            <sub><b>Null</b></sub>
+        </a>
+    </td>
+    <td align="center">
+        <a href="https://github.com/vicente1992">
+            <img src="https://avatars.githubusercontent.com/u/57806030?v=4" width="50;" alt="vicente1992"/>
+            <br />
+            <sub><b>Manuel Vicente Ortiz</b></sub>
+        </a>
+    </td>
+    <td align="center">
+        <a href="https://github.com/leifermendezfroged">
+            <img src="https://avatars.githubusercontent.com/u/97020486?v=4" width="50;" alt="leifermendezfroged"/>
+            <br />
+            <sub><b>Leifer Mendez</b></sub>
+        </a>
+    </td>
+    <td align="center">
+        <a href="https://github.com/danielcasta0398">
+            <img src="https://avatars.githubusercontent.com/u/98791147?v=4" width="50;" alt="danielcasta0398"/>
+            <br />
+            <sub><b>Juan Daniel Castaño</b></sub>
+        </a>
+    </td></tr>
+<tr>
+    <td align="center">
+        <a href="https://github.com/marianarolfo">
+            <img src="https://avatars.githubusercontent.com/u/68322254?v=4" width="50;" alt="marianarolfo"/>
+            <br />
+            <sub><b>Null</b></sub>
+        </a>
+    </td>
+    <td align="center">
+        <a href="https://github.com/HKong31">
+            <img src="https://avatars.githubusercontent.com/u/113340082?v=4" width="50;" alt="HKong31"/>
+            <br />
+            <sub><b>HLKong</b></sub>
+        </a>
+    </td>
+    <td align="center">
+        <a href="https://github.com/jzvi12">
+            <img src="https://avatars.githubusercontent.com/u/10729787?v=4" width="50;" alt="jzvi12"/>
+            <br />
+            <sub><b>Zvi</b></sub>
+        </a>
+    </td>
+    <td align="center">
+        <a href="https://github.com/JosephVTX">
+            <img src="https://avatars.githubusercontent.com/u/91026290?v=4" width="50;" alt="JosephVTX"/>
+            <br />
+            <sub><b>Joseph Vega Callupe</b></sub>
+        </a>
+    </td>
+    <td align="center">
+        <a href="https://github.com/Gonzalito87">
+            <img src="https://avatars.githubusercontent.com/u/100331586?v=4" width="50;" alt="Gonzalito87"/>
+            <br />
+            <sub><b>Null</b></sub>
+        </a>
+    </td>
+    <td align="center">
+        <a href="https://github.com/devrlbusiness">
+            <img src="https://avatars.githubusercontent.com/u/66280283?v=4" width="50;" alt="devrlbusiness"/>
+            <br />
+            <sub><b>Developer RL Business</b></sub>
+        </a>
+    </td></tr>
+<tr>
+    <td align="center">
+        <a href="https://github.com/Gregoriotecnico">
+            <img src="https://avatars.githubusercontent.com/u/118696506?v=4" width="50;" alt="Gregoriotecnico"/>
+            <br />
+            <sub><b>Null</b></sub>
+        </a>
+    </td>
+    <td align="center">
+        <a href="https://github.com/jlferrete">
+            <img src="https://avatars.githubusercontent.com/u/36698913?v=4" width="50;" alt="jlferrete"/>
+            <br />
+            <sub><b>Jose Luis Ferrete Olarte</b></sub>
+        </a>
+    </td>
+    <td align="center">
+        <a href="https://github.com/lisandroprada">
+            <img src="https://avatars.githubusercontent.com/u/7232326?v=4" width="50;" alt="lisandroprada"/>
+            <br />
+            <sub><b>Null</b></sub>
+        </a>
+    </td>
+    <td align="center">
+        <a href="https://github.com/6rak0">
+            <img src="https://avatars.githubusercontent.com/u/12260031?v=4" width="50;" alt="6rak0"/>
+            <br />
+            <sub><b>Null</b></sub>
+        </a>
+    </td>
+    <td align="center">
+        <a href="https://github.com/tonyvazgar">
+            <img src="https://avatars.githubusercontent.com/u/21047090?v=4" width="50;" alt="tonyvazgar"/>
+            <br />
+            <sub><b>Luis Antonio Vázquez García</b></sub>
+        </a>
+    </td>
+    <td align="center">
+        <a href="https://github.com/rrruuuyyy">
+            <img src="https://avatars.githubusercontent.com/u/33061671?v=4" width="50;" alt="rrruuuyyy"/>
+            <br />
+            <sub><b>Rodrigo Mendoza Cabrera</b></sub>
+        </a>
+    </td></tr>
+<tr>
+    <td align="center">
+        <a href="https://github.com/yond1994">
+            <img src="https://avatars.githubusercontent.com/u/47557263?v=4" width="50;" alt="yond1994"/>
+            <br />
+            <sub><b>Yonathan Suarez</b></sub>
+        </a>
+    </td></tr>
+</table>
+<!-- readme: collaborators,contributors -end -->
 
-DEFAULT_MESSAGE=true
-SAVE_MEDIA=true
-PORT=3000
-DATABASE=none
-LANGUAGE=es
-SQL_HOST=
-SQL_USER=
-SQL_PASS=
-SQL_DATABASE=
-```
 
-![](https://i.imgur.com/9poNnW0.png)
-
-__Ejecutar el script__
-> Ubicate en le directorio que descargaste y via consola o terminal ejecuta el siguiente comando
-`npm run start`
-
-![](https://i.imgur.com/eMkBkuJ.png)
-
-__Whatsapp en tu celular__
-> Ahora abre la aplicación de Whatsapp en tu dispositivo y escanea el código QR
-<img src="https://i.imgur.com/RSbPtat.png" width="500"  />
-Visitar la pagina 
-`http://localhost:3000/qr` 
-
-![](https://i.imgur.com/Q3JEDlP.png)
-
-__Listo 😎__
-> Cuando sale este mensaje tu BOT está __listo__ para trabajar!
-![](https://i.imgur.com/eoJ4Ruk.png)
-
-# ¿Quieres ver como se creó? 🤖
-- [Ver Video 1](https://www.youtube.com/watch?v=A_Xu0OR_HkE)
-- [¿Como instalarlo? (Actulización)](https://youtu.be/5lEMCeWEJ8o)
-
-## ¿Como usarlo el chatbot de whatsapp?
-> Escribe un mensaje al whatsapp que vinculaste con tu BOT
-
-![](https://i.imgur.com/OSUgljQ.png)
-
-> Ahora deberías  obtener un arespuesta por parte del BOT como la siguiente, ademas de esto tambien se crea un archivo excel
-con el historial de conversación  con el número de tu cliente
-
-![](https://i.imgur.com/lrMLgR8.png)
-![](https://i.imgur.com/UYcoUSV.png)
-
-## Preguntar al BOT
-> Puedes interactuar con el bot ejemplo escribele __hola__ y el bot debe responderte!
-
-![](https://i.imgur.com/cNAS51I.png)
